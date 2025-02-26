@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Máquina y Piezas </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h4>Suavisal</h4>
+        <h1>Registro de Máquina y Piezas</h1>
+    </header>
+
+    <main>
+        <section id="formulario">
+            <h2>Formulario de Registro</h2>
+            <form id="registro-form">
+                <label for="nombre-maquina">Nombre de la Máquina:</label>
+                <input type="text" id="nombre-maquina" name="nombre-maquina" required>
+
+                <label for="pieza1">Pieza 1:</label>
+                <input type="text" id="pieza1" name="pieza1" required>
+
+                <label for="pieza2">Pieza 2:</label>
+                <input type="text" id="pieza2" name="pieza2" required>
+
+                <label for="pieza3">Pieza 3:</label>
+                <input type="text" id="pieza3" name="pieza3" required>
+
+                <label for="foto-maquina-input">Cargar Foto de la Máquina:</label>
+                <input type="file" id="foto-maquina-input" accept="image/*" required>
+
+                <button type="button" id="guardar-btn">Guardar Datos</button>
+            </form>
+        </section>
+
+        <section id="resultado">
+            <h2>Datos Guardados:</h2>
+            <table id="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>Foto</th>
+                        <th>Máquina</th>
+                        <th>Piezas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos guardados se mostrarán aquí -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Proyecto Terminal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+   
+     
