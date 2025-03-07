@@ -1,64 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="index"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Máquina y Piezas </title>
+    <title>Página con Logo y Enlaces</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
-    <header>
-        <h4>Suavisal</h4>
-        <h1>Registro de Máquina y Piezas</h1>
+
+    <!-- Encabezado con logo, nombre y enlaces -->
+ <header>
+    <ul class="link-log">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="log.html">Inicio de sesion</a></li>
+            </ul>
+<img class="img-1" src="suavisal.png" alt="suavisal">
+
     </header>
-
-    <main>
-        <section id="formulario">
-            <h2>Formulario de Registro</h2>
-            <form id="registro-form">
-                <label for="nombre-maquina">Nombre de la Máquina:</label>
-                <input type="text" id="nombre-maquina" name="nombre-maquina" required>
-
-                <label for="pieza1">Pieza 1:</label>
-                <input type="text" id="pieza1" name="pieza1" required>
-
-                <label for="pieza2">Pieza 2:</label>
-                <input type="text" id="pieza2" name="pieza2" required>
-
-                <label for="pieza3">Pieza 3:</label>
-                <input type="text" id="pieza3" name="pieza3" required>
-
-                <label for="foto-maquina-input">Cargar Foto de la Máquina:</label>
-                <input type="file" id="foto-maquina-input" accept="image/*" required>
-
-                <button type="button" id="guardar-btn">Guardar Datos</button>
-            </form>
-        </section>
-
-        <section id="resultado">
-            <h2>Datos Guardados:</h2>
-            <table id="tabla-datos">
-                <thead>
-                    <tr>
-                        <th>Foto</th>
-                        <th>Máquina</th>
-                        <th>Piezas</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Los datos guardados se mostrarán aquí -->
-                </tbody>
-            </table>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Proyecto Terminal</p>
-    </footer>
-
-    <script src="script.js"></script>
+<img class="img-2" src="nosotros.jpg" alt="">
+ <div class="suavisal">
+        <h1>Suavisal</h1>
+        <p>
+Durante más de 20 años en Suavisal hemos estudiado los diversos usos 
+y aplicaciones de la Sal de mar en la industria, especializándonos cada 
+vez más para brindar un mejor producto y servicio. Actualmente hemos logrado una 
+excelente calidad en nuestra Sal además de una gran variedad de presentaciones y productos 
+adicionales. Asimismo nos preocupamos por todo el proceso de nuestros clientes, por lo que estamos 
+comprometidos a ofrecer 
+servicios que se adecúan a las necesidades de cada uno de ellos.
+        </p>
+    </div> 
+    
+    <main class="main">
+        <div class="container">
+    <div class="Vision">
+    <h1>Vision</h1>
+    <p>Consolidarnos como una empresa líder en el mercado, mediante el crecimiento y
+        la mejora integral continua en la organización, con el fin de proyectar calidad
+        y confianza.</p>
+</div>
+<div class="Mision">
+    <h1>Mision</h1>
+    <p>Dar un excelente servicio y proveer productos de la más alta calidad, mediante el esfuerzo
+       para cubrir las necesidades de nuestros consumidores y clientes, y así mantenerlos totalmente 
+       satisfechos.</p>
+</div>
+</div>
+</main>
 </body>
 </html>
-
-   
-     

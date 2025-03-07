@@ -1,42 +1,158 @@
-/* Estilos generales */
+
+.login{/* Estilos generales */
 body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.suavisal.com/IMG/sal-mar.jpg'); /* Cambia 'fondo.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.link-log {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically if needed */
+    position: absolute; /* Position it at the top of the page */
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left */
+    padding-left: 20px; /* Add padding to the left for some spacing */
+}
+
+ul.link-log li {
+    margin-right: 20px; /* Add space between the items */
+}
+
+ul.link-log li a {
+    color: #0e0808; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+ul.link-log li a:hover {
+    color: #f7f4f3; /* Change color on hover (adjust to your preference) */
+}
+/* Contenedor del formulario */
+.login-container {
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para los inputs */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+}
+.registro{
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #d7dbdb;
 }
+header { 
+    background-color: #1f91d3;
+    color: #f6f8f7;
+    padding: 15px;
+}
+}
+.my-info a{
+     color: #0e0808; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color change */   
+}
+.my-info a:hover{
+    color: #f7f4f3; /* Change color on hover (adjust to your preference) */
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
 }
-h4{
-    text-align: left;
+.my-info {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    padding: 10px; /* Añade un poco de espacio alrededor del contenido */
+    align-items: center;
+    justify-content:center; 
+}
+.my-info h1 {
+    margin: 0;
+    font-size: 24px;
+    flex-grow: 1; /* Hace que el título ocupe el espacio restante */
+    text-align: center; /* Centra el texto */
+}
+.my-info img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+h2{
+    text-align: center;
     margin-top: 20px;
      margin-bottom: 30px;
-}
- 
-
-h1 {
-    margin: 0;
-}
-
+} 
 #formulario {
-    background-color: #fff;
     padding: 18px;
     border-radius: 8px;
     margin: 18px auto;
     max-width: 600px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(248, 247, 247, 0.205);
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
 }
-
 label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 10px 0 10px;
 }
-
 input {
     width: 100%;
     padding: 8px;
@@ -46,7 +162,7 @@ input {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -84,6 +200,7 @@ button:hover {
 /* Estilo del resultado */
 #resultado {
     padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
     background-color: #fff;
     border-radius: 8px;
     margin: 20px auto;
@@ -94,9 +211,102 @@ button:hover {
 footer {
     text-align: center;
     padding: 1px;
-    background-color: #333;
+    background-color: #007BFF;
     color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
+
+.index{
+    /* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dddbdb;
+    color: #070000;
+}
+
+/* Encabezado */
+header {
+    background-color: #398ee9;
+    padding: 20px 15px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(219, 217, 217, 0.1);
+    text-align: center;
+    }
+      h1{
+    text-align: center; /* Align the h1 text to the left */
+   margin: 0; /* Remove default margin */
+    padding-left: 0; /* Remove any left padding */
+    font-size: 2em; /* Adjust font size */
+     }
+ul.link-log {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically if needed */
+    position: absolute; /* Position it at the top of the page */
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left */
+    padding-left: 20px; /* Add padding to the left for some spacing */
+}
+
+ul.link-log li {
+    margin-right: 20px; /* Add space between the items */
+}
+
+ul.link-log li a {
+    color: #0e0808; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+ul.link-log li a:hover {
+    color: #f7f4f3; /* Change color on hover (adjust to your preference) */
+}
+.suavisal{
+    background-color:#dddbdb ; 
+     padding: 5px;
+   margin: 0px 10px;
+   text-align: left;
+   font-weight: bold;
+}
+}
+main{
+    background-color: #dddbdb;
+}
+    .img-2{
+        width: 100vw;  
+        height: 200px;
+        display: flex; 
+    }
+    .container{
+        display: flex;
+        background-color:#398ee9;
+    }
+    .Vision {
+   background-color: #398ee9;
+   padding: 10px;
+   margin: 0 40px;
+   text-align: left;
+   font-weight: bold;
+}
+ .Mision {
+   background-color:#398ee9;
+   padding: 10px;
+   margin: 0px 40px;
+   text-align: left;
+   font-weight: bold;
+ }
+ 
+
+
+
+
