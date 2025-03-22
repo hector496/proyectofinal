@@ -1,6 +1,8 @@
 
 .login{/* Estilos generales */
+   
 body {
+    
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -11,11 +13,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 ul.link-log {
+    background-color: #3eb4f8;
+    width: 1320px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 10px;
     display: flex;
     justify-content: flex-start; /* Align items to the left */
     align-items: center; /* Center vertically if needed */
@@ -27,6 +33,7 @@ ul.link-log {
 
 ul.link-log li {
     margin-right: 20px; /* Add space between the items */
+
 }
 
 ul.link-log li a {
@@ -42,7 +49,7 @@ ul.link-log li a:hover {
 /* Contenedor del formulario */
 .login-container {
     background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -142,7 +149,7 @@ h2{
      margin-bottom: 30px;
 } 
 #formulario {
-    padding: 18px;
+    padding: 50px;
     border-radius: 8px;
     margin: 18px auto;
     max-width: 600px;
@@ -305,8 +312,145 @@ main{
    text-align: left;
    font-weight: bold;
  }
- 
+ .contacto{
+    body{
+        font-family: sans-serif;
+        margin: 0px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: #3eb4f8;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+ .contacto-h1{
+    background-color: #f8f9fa;
+    width: 25%;
+   padding: 100px;
+   margin: 0 1%;
+   text-align: center;
+   font-weight: bold;
+   text-align: justify;
+   border: #3902d1;
+ }
+.direccion-h1{
+    background-color: #f8f9fa;
+    width: 25%;
+   padding: 10px 20px;
+   margin: 0 10%;
+   text-align: left;
+   font-weight: bold;
+}
+.correo-h1{
+    background-color: #f8f9fa;
+    width: 25%;
+   padding: 10px 20px;
+   margin: 0 10%;
+   text-align: center;
+   font-weight: bold;
+  
+ }
+.googlemaps{
+    align-items: center;
+}
+.direccion-maps{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px;
+}
+nav a{
+    font-weight: 600;
+    margin-right: 10px;
+}
+nav a:hover{
+    color: #ccc;
+    
+}
+@media (max-width: 700px){
+    .contacto{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10 0px;
+    }  
+}
+}
+.producto{
+     body{
+        font-family: sans-serif;
+        margin: 0px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: #3eb4f8;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    margin-right: 10px;
+}
+nav a:hover{
+    color: #ccc;
+    
+}
+.img-productos1{
+    width: 100%;
+    height: 180px;
 
+}
+.Inicio{
+    background-color: #36e2f8;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+.productos-align{
+    display: flex;
+    padding: 100px;
+    margin: 100px;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 20px ;
+    margin-top: 2px;
+    border: 1px;
+    
+}
+.Sal{
+    text-align: center;
+    border-radius: 10px
+}
+.bajagold{
+ text-align: left;
+border-radius: 10px
+}
+}
 
 
 
